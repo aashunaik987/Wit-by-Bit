@@ -1,0 +1,64 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    width: 500px;
+    height: 350px;
+    border-radius: 17px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    position: relative; 
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align:left;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .modalContainer .footer {
+    flex: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  
+  
+  

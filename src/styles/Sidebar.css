@@ -1,0 +1,63 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    margin-left: 250px; /* Adjust this value based on your sidebar width */
+    transition: margin-left 0.3s;
+  }
+  
+  .sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #fdfafa;
+    color: #060606;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .sidebar.open {
+    margin-left: 0;
+  }
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #2CA4D8;
+    ;
+  }
+.student-add{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 20px;
+ margin-left: 0px;
+} 
+
+.logo-btn{
+  background: #FFBF3F;
+  padding: 2px;
+  border-radius: 7px;
+
+}
+.profile{
+  margin-top: 80%;
+}

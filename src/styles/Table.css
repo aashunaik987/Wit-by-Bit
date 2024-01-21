@@ -1,0 +1,80 @@
+
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+    overflow: hidden;
+    table-layout: fixed; /* Set the table layout to fixed */
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    max-width: 65%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.table-wrapper {
+    width: 100%;
+}
+
+.table thead {
+    background-color: #ccc;
+    color: #222
+}
+
+.table th, .table td {
+    padding: 0.8rem;
+    vertical-align: middle; /* Center the content vertically */
+}
+
+.table th {
+    width: 16.66%; /* Equal width for each th (100% / 6 columns) */
+}
+
+.table td {
+    border-top: 0.5px solid #f8f6f6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.table tbody tr:hover {
+    background-color: #eee;
+}
+.passed{
+background-color: rgb(78, 158, 78);
+color: #eee;
+padding: 5px;
+border-radius: 7px;
+}
+
+.failed{
+    background-color: rgb(210, 30, 30);
+color: #eee;
+padding: 5px;
+border-radius: 7px;
+}
+
+.foot{
+    margin-top: 18%;
+    margin-left: 18%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+/* Adjust the styles for the actions column */
+.table td:last-child {
+    text-align: center;
+}
+
+.icon {
+    margin: auto;
+    cursor: pointer;
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
